@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+
+#website-title {
+    font-size: 100px;
+}
+
+#profilepic {
+    border: 10px solid black;
+    border-radius: 50%;
+    height: 200px;
+
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px 15%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.textBlock > h1, .textBlock > p {
+    padding-left: 10px;
+}
+
+footer {
+    /* position: sticky; */
+    background-color: grey;
+    /* bottom: 0px; */
+    padding: 10px;
+}
